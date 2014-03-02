@@ -1,0 +1,35 @@
+#text, .show_all {
+    margin: 0 auto;
+    width: 500px;
+}
+
+.show_all {
+    text-align: center;
+}
+
+#text {
+    line-height: 2.4;
+
+    font-family: 'Lora', serif;
+}
+
+.fold,
+.show_all {
+    color: #F3F3F3;
+    background-color: #333;
+    font-style: normal;
+    padding: 10px;
+
+    -webkit-box-shadow: inset 0px 0px 15px 3px rgba(0,0,0,0.4);
+    -moz-box-shadow: inset 0px 0px 15px 3px rgba(0,0,0,0.4);
+    box-shadow: inset 0px 0px 15px 3px rgba(0,0,0,0.4);
+
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+}
+
+.fold:hover,
+.show_all:hover {
+    cursor: pointer;
+}
